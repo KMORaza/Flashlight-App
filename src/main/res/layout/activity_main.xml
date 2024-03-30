@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <ImageButton
+        android:id="@+id/toggle_button"
+        android:layout_width="205dp"
+        android:layout_height="353dp"
+        android:layout_centerInParent="true"
+        android:background="@null"
+        android:padding="1dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/flashlight_icon" />
+    <ToggleButton
+        android:id="@+id/theme_toggle_button"
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:textOn=""
+        android:textOff=""
+        android:checked="false"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+        android:padding="8dp"/>
+</RelativeLayout>
